@@ -1,0 +1,36 @@
+{
+  "name": "goodbeerstories",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "babel-plugin-react-compiler": "^0.0.0-experimental-696af53-20240625",
+    "geist": "^1.3.0",
+    "next": "rc",
+    "react": "rc",
+    "react-dom": "rc",
+    "tailwindcss": "^3.4.3",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.3",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "latest",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
