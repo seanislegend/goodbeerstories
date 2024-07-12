@@ -1,3 +1,4 @@
+import {Analytics} from '@vercel/analytics/react';
 import {GeistMono} from 'geist/font/mono';
 import {GeistSans} from 'geist/font/sans';
 import {Metadata} from 'next';
@@ -11,6 +12,7 @@ const RootLayout = async ({children}: Props) => (
     <html lang="en" className={`font-sans antialiased ${GeistSans.variable} ${GeistMono.variable}`}>
         <body className="flex h-full min-h-[100vh] flex-grow flex-col bg-beige-50 text-blue-950">
             {children}
+            <Analytics />
         </body>
     </html>
 );
